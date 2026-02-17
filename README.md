@@ -120,7 +120,11 @@ See [assets/docs/wireframes/](assets/docs/wireframes/) for all wireframe files.
 
 ## Testing
 
-Full testing documentation is available in the [TESTING.md](TESTING.md) file.
+Full testing documentation is available in the
+[TESTING.md](TESTING.md) file.
+
+A formal test plan with 76 test cases is available in
+[assets/docs/MP1_Test_Plan.docx](assets/docs/MP1_Test_Plan.docx).
 
 Testing covers the following areas:
 - HTML Validation (W3C Validator)
