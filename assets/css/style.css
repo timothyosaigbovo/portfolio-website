@@ -1,0 +1,51 @@
+/* ===========================
+   CSS Custom Properties
+   =========================== */
+:root {
+  --primary-colour: #1a3a5c;
+  --primary-light: #2a5a8c;
+  --primary-dark: #0d1f33;
+  --accent-colour: #e8a838;
+  --text-colour: #2c2c2c;
+  --bg-light: #f5f7fa;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+}
+
+/* ===========================
+   Base Styles
+   =========================== */
+body {
+  font-family: var(--font-body);
+  color: var(--text-colour);
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--primary-colour);
+}
+
+/* ===========================
+   Navigation
+   =========================== */
+
+/* ===========================
+   Hero Section
+   =========================== */
+
+/* ===========================
+   Cards
+   =========================== */
+
+/* ===========================
+   Contact Form
+   =========================== */
+
+/* ===========================
+   Footer
+   =========================== */
+
+/* ===========================
+   Media Queries
+   =========================== */
