@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Professional portfolio for Timothy Osaigbovo">
+  <meta name="description" content="Contact Timothy Osaigbovo for opportunities and collaborations">
   <title>Timothy Osaigbovo | Contact</title>
 
   <!-- Google Fonts -->
@@ -60,12 +60,110 @@
 
   <!-- Main Content -->
   <main id="main-content">
-    <!-- Page-specific content goes here -->
+
+    <!-- Contact Header -->
+    <section class="page-header text-center py-5">
+      <div class="container">
+        <h1 class="display-4 fw-bold text-white">Contact Me</h1>
+        <p class="lead text-white">Get in touch for opportunities or collaborations</p>
+      </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-5">
+          <!-- Contact Form -->
+          <div class="col-lg-7">
+            <h2 class="mb-4">Send a Message</h2>
+            <form action="success.html" method="GET">
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" name="fullName"
+                  required aria-required="true" placeholder="Enter your full name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email"
+                  required aria-required="true" placeholder="Enter your email address">
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <select class="form-select" id="subject" name="subject"
+                  required aria-required="true">
+                  <option value="" disabled selected>Choose a subject</option>
+                  <option value="recruitment">Recruitment Enquiry</option>
+                  <option value="collaboration">Collaboration</option>
+                  <option value="education">Education &amp; Training</option>
+                  <option value="general">General Enquiry</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message"
+                  rows="5" required aria-required="true"
+                  placeholder="Write your message here"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary-custom btn-lg">
+                <i class="fas fa-paper-plane me-2"></i>Send Message</button>
+            </form>
+          </div>
+          <!-- Contact Details -->
+          <div class="col-lg-5">
+            <h2 class="mb-4">Contact Details</h2>
+            <div class="contact-info-item mb-4">
+              <i class="fas fa-envelope fa-lg me-3" style="color:var(--accent-colour);"></i>
+              <span>timothy.osaigbovo@example.com</span>
+            </div>
+            <div class="contact-info-item mb-4">
+              <i class="fab fa-github fa-lg me-3" style="color:var(--accent-colour);"></i>
+              <a href="https://github.com/timothyosaigbovo" target="_blank" rel="noopener noreferrer">
+                github.com/timothyosaigbovo</a>
+            </div>
+            <div class="contact-info-item mb-4">
+              <i class="fab fa-linkedin fa-lg me-3" style="color:var(--accent-colour);"></i>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                LinkedIn Profile</a>
+            </div>
+            <div class="contact-info-item mb-4">
+              <i class="fas fa-map-marker-alt fa-lg me-3" style="color:var(--accent-colour);"></i>
+              <span>United Kingdom</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer (same on all pages) -->
-  <footer>
-    <!-- Your footer content here -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-4 mb-3">
+          <h5>Timothy Osaigbovo</h5>
+          <p>Computing Educator | DevOps Engineer | Data Enthusiast</p>
+        </div>
+        <div class="col-md-4 mb-3 text-center">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3 text-center text-md-end">
+          <h5>Connect</h5>
+          <a href="https://github.com/timothyosaigbovo" target="_blank" rel="noopener noreferrer" aria-label="Visit GitHub profile (opens in new tab)" class="footer-social">
+            <i class="fab fa-github fa-2x"></i></a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn profile (opens in new tab)" class="footer-social">
+            <i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center mb-0">&copy; 2026 Timothy Osaigbovo. All rights reserved.</p>
+    </div>
   </footer>
 
   <!-- Bootstrap 5 JS -->
