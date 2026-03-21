@@ -12,6 +12,16 @@ The site provides a clear, well-defined purpose addressing the needs of a partic
 
 **Repository:** [https://github.com/timothyosaigbovo/portfolio-website](https://github.com/timothyosaigbovo/portfolio-website)
 
+## Responsive Design
+
+The site is fully responsive across all device sizes, built with Bootstrap 5.3.3 and four custom CSS media query breakpoints.
+
+### Desktop View
+![Desktop View](assets/images/testing/responsive-desktop.png)
+
+### Mobile View
+![Mobile View](assets/images/testing/responsive-mobile.png)
+
 ## Target Audience
 
 Recruiters, academic managers and technology employers who wish to quickly assess professional suitability for computing, DevOps and education roles.
