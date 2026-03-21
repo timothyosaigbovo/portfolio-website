@@ -260,3 +260,15 @@ Lighthouse audits were conducted on all five pages using Google Chrome DevTools,
 | Portfolio (portfolio.html) | 96 | 95 | 100 | 100 |
 | Contact (contact.html) | 98 | 100 | 100 | 100 |
 | Success (success.html) | 97 | 100 | 100 | 100 |
+
+### Mobile Lighthouse Screenshots
+
+![Lighthouse Home Mobile](assets/images/testing/lighthouse-index-mobile.png)
+
+![Lighthouse About Mobile](assets/images/testing/lighthouse-about-mobile.png)
+
+![Lighthouse Portfolio Mobile](assets/images/testing/lighthouse-portfolio-mobile.png)
+
+![Lighthouse Contact Mobile](assets/images/testing/lighthouse-contact-mobile.png)
+
+![Lighthouse Success Mobile](assets/images/testing/lighthouse-success-mobile.png)
