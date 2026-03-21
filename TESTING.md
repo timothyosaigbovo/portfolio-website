@@ -226,3 +226,26 @@ All testing has been completed successfully:
 - **User Stories:** All 10 user stories have been met with evidence
 - **Bugs:** All 5 bugs identified during development have been fixed and verified
 
+## Lighthouse Audit Results
+
+Lighthouse audits were conducted on all five pages using Google Chrome DevTools, testing both desktop and mobile performance.
+
+### Desktop Results
+
+| Page | Performance | Accessibility | Best Practices | SEO |
+|------|------------|--------------|----------------|-----|
+| Home (index.html) | 100 | 95 | 100 | 100 |
+| About (about.html) | 99 | 95 | 100 | 100 |
+| Portfolio (portfolio.html) | 100 | 95 | 100 | 100 |
+| Contact (contact.html) | 100 | 100 | 100 | 100 |
+| Success (success.html) | 100 | 100 | 100 | 100 |
+
+### Mobile Results
+
+| Page | Performance | Accessibility | Best Practices | SEO |
+|------|------------|--------------|----------------|-----|
+| Home (index.html) | 95 | 95 | 100 | 100 |
+| About (about.html) | 95 | 95 | 100 | 100 |
+| Portfolio (portfolio.html) | 96 | 95 | 100 | 100 |
+| Contact (contact.html) | 98 | 100 | 100 | 100 |
+| Success (success.html) | 97 | 100 | 100 | 100 |
