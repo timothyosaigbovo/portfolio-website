@@ -294,3 +294,11 @@ All HTML pages were validated using the [W3C Nu Html Checker](https://validator.
 ![HTML Validation Contact](assets/images/testing/html-validation-contact.png)
 
 ![HTML Validation Success](assets/images/testing/html-validation-success.png)
+
+## CSS Validation
+
+Custom CSS was validated using the [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/). The stylesheet passed with no errors.
+
+![CSS Validation Result](assets/images/testing/css-validation.png)
+
+Eight warnings were reported, all stating: "Due to their dynamic nature, CSS variables are currently not statically checked." This is expected behaviour when using CSS custom properties (e.g. `var(--primary-colour)`) and does not indicate any errors in the code. The validator confirms the CSS is valid CSS level 3 + SVG.
