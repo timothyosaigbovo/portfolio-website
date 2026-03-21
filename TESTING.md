@@ -272,3 +272,25 @@ Lighthouse audits were conducted on all five pages using Google Chrome DevTools,
 ![Lighthouse Contact Mobile](assets/images/testing/lighthouse-contact-mobile.png)
 
 ![Lighthouse Success Mobile](assets/images/testing/lighthouse-success-mobile.png)
+
+## HTML Validation
+
+All HTML pages were validated using the [W3C Nu Html Checker](https://validator.w3.org/nu/). Every page passed with no errors or warnings.
+
+| Page | Result |
+|------|--------|
+| index.html | No errors or warnings |
+| about.html | No errors or warnings |
+| portfolio.html | No errors or warnings |
+| contact.html | No errors or warnings |
+| success.html | No errors or warnings |
+
+![HTML Validation Index](assets/images/testing/html-validation-index.png)
+
+![HTML Validation About](assets/images/testing/html-validation-about.png)
+
+![HTML Validation Portfolio](assets/images/testing/html-validation-portfolio.png)
+
+![HTML Validation Contact](assets/images/testing/html-validation-contact.png)
+
+![HTML Validation Success](assets/images/testing/html-validation-success.png)
