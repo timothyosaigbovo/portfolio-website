@@ -240,6 +240,17 @@ Lighthouse audits were conducted on all five pages using Google Chrome DevTools,
 | Contact (contact.html) | 100 | 100 | 100 | 100 |
 | Success (success.html) | 100 | 100 | 100 | 100 |
 
+### Desktop Lighthouse Screenshots
+
+![Lighthouse Home Desktop](assets/images/testing/lighthouse-index-desktop.png)
+
+![Lighthouse About Desktop](assets/images/testing/lighthouse-about-desktop.png)
+
+![Lighthouse Portfolio Desktop](assets/images/testing/lighthouse-portfolio-desktop.png)
+
+![Lighthouse Contact Desktop](assets/images/testing/lighthouse-contact-desktop.png)
+
+![Lighthouse Success Desktop](assets/images/testing/lighthouse-success-desktop.png)
 ### Mobile Results
 
 | Page | Performance | Accessibility | Best Practices | SEO |
